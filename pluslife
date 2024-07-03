@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Launch the pluslife analyzer website with web bluetooth turned on
+# It, unfortunately, only runs in Chrome
+
+
+chromium-browser --enable-features=WebBluetooth 'https://virus.sucks/pluslife_app/' >/dev/null 2>&1 &
